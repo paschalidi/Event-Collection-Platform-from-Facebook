@@ -1,0 +1,64 @@
+.center 
+{
+text-align: center;
+position: relative;
+  top: 50%;
+  transform: translateY(50%);
+}
+
+login {
+	position:relative;
+	left:50px;
+	top:50px;
+	width :80%;
+	height:30%;
+}
+
+.myButton {
+	background-color:transparent;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Courier New;
+	font-size:21px;
+	padding:10px 38px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #283966;
+}
+.myButton:hover {
+	background-color:#fff;
+	border:0px solid #000000;
+
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+    border: 0px solid red;
+   
+}
+
+
+.login input[type="text"] {
+	background: transparent;
+	border-top: 1px solid #000;
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+	border-bottom: 1px solid #000;
+	border-radius: 0px;
+	color: #363636;
+	padding-left: 0%;
+	width: 15%;
+}
+
+.login input[type="password"] {
+	background: transparent;
+	border-top: 1px solid #000;
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+	border-bottom: 1px solid #000;
+	border-radius: 0px;
+	color: #363636;
+	padding-left: 0%;
+	width: 15%;
+}
